@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+  #category {
+    padding-block: 100px;
+  }
+  .main-box {
+    gap: 10px;
+  }
+  .box {
+    max-width: 250px;
+    gap: 10px;
+    padding: 20px;
+  }
+  .evolved img {
+    max-width: 840px;
+  }
+  .evolved-text {
+    max-width: 560px;
+  }
+}
+@media (max-width: 750px) {
+  #category {
+    padding-block: 60px;
+  }
+  .main-box {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .evolved {
+    flex-direction: column;
+  }
+  .evolved-text {
+    width: 100%;
+    position: relative;
+    padding: 50px;
+  }
+}
