@@ -21,16 +21,21 @@
   #category {
     padding-block: 60px;
   }
-  .main-box {
+  .category h2 {
+    text-align: center;
+  }
+  .main-box,
+  .evolved {
     flex-direction: column;
     gap: 30px;
   }
-  .evolved {
-    flex-direction: column;
+  .evolved img {
+    max-width: 840px;
+    height: 500px;
   }
   .evolved-text {
     width: 100%;
     position: relative;
-    padding: 50px;
+    padding: 0;
   }
 }
