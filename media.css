@@ -6,7 +6,6 @@
     gap: 10px;
   }
   .box {
-    max-width: 250px;
     gap: 10px;
     padding: 20px;
   }
@@ -19,7 +18,7 @@
 }
 @media (max-width: 750px) {
   #category {
-    padding-block: 60px;
+    padding-block: 30px;
   }
   .category h2 {
     text-align: center;
@@ -29,13 +28,18 @@
     flex-direction: column;
     gap: 30px;
   }
+  .box {
+    gap: 20px;
+  }
   .evolved img {
     max-width: 840px;
     height: 500px;
   }
   .evolved-text {
+    margin-top: 30px;
     width: 100%;
     position: relative;
     padding: 0;
+    gap: 20px;
   }
 }
